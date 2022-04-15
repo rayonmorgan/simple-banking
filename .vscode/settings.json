@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "vs-seti",
+    "html-css-class-completion.CSSLanguages": [
+
+
+        "css",
+        "sass",
+        "scss"
+    ]
+}
