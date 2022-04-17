@@ -7,29 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserDashboardComponent implements OnInit {
 
-  navStatusOn : boolean;
-  navStatusOff : boolean;
+  navSideStatus : boolean;
+   
 
   constructor() {
-    this.navStatusOn = false;
-    this.navStatusOff = true;
+    this.navSideStatus = false;
+       
+     
    }
 
   ngOnInit(): void {
+    
   }
 
   // open and hide side nav bar
   openSideNav() : void{
-     if(this.navStatusOn)
-     {
-       this.navStatusOff = true;
-       this.navStatusOn = false;
-     }
-     else
-     {
-      this.navStatusOff = false;
-      this.navStatusOn = true;
-     }
+    if(this.navSideStatus)
+    {
+      this.navSideStatus = false;
+    }
+    else{
+      this.navSideStatus = true;
+    }
+    
   }
   
 

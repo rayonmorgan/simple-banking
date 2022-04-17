@@ -1,11 +1,24 @@
+.bnkshowsidebar{
+    display: none;
+}
 
- .bnkhidesidebar{
-    display:none;
+.bnktogglesidebar{
+    display: block !important;
+}
+
+
+ @media (min-width: 576px){
+    /* .bnkhidesidebar{
+        display:block;
+     } */
+    
+     .bnkshowsidebar{
+        display: block;
+    }
+
  }
 
- .bnkshowsidebar{
-     display: block;
- }
+ 
 
 
 
